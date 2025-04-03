@@ -30,7 +30,7 @@ class HotelManagementSystem {
                     loginAdmin();
                     break;
                 case 4:
-                    System.out.println("Thank you for using Societe by Lyfehaus. Goodbye!");
+                    System.out.println("Thank you for visiting Societe by Lyfehaus. Goodbye!");
                     return;
                 default:
                     System.out.println("Invalid choice! Please try again.");
