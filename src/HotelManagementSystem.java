@@ -82,6 +82,9 @@ class HotelManagementSystem {
         while (true) {
             System.out.println("\n=== Customer Menu ===");
             System.out.println("1. Book Room");
+            // cancel  booking
+            //add book
+            // modify booking 
             System.out.println("2. Check Availability");
             System.out.println("3. View Booking History");
             System.out.println("4. Make Payment");
@@ -94,6 +97,7 @@ class HotelManagementSystem {
             switch (choice) {
                 case 1:
                     System.out.println("Booking Room...");
+                    bookingHistory();
                     break;
                 case 2:
                     System.out.println("Checking Availability...");
@@ -111,6 +115,11 @@ class HotelManagementSystem {
                     System.out.println("Invalid choice!");
             }
         }
+    }
+
+    private static void bookingHistory(){
+        
+
     }
 
     private static void adminMenu() {
